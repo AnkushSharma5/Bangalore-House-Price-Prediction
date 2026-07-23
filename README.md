@@ -6,51 +6,61 @@ An end-to-end Machine Learning web application that predicts house prices in Ban
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikitlearn&logoColor=white">
-  <img src="https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B?logo=streamlit&logoColor=white">
   <img src="https://img.shields.io/badge/License-MIT-green">
-  <img src="https://img.shields.io/badge/Status-Completed-success">
 </p>
 
 ---
 
-## 📖 Overview
+# 📖 Overview
 
-This project predicts the price of residential properties in Bangalore based on property details such as location, area type, total square feet, number of bedrooms, bathrooms, and balconies.
+This project predicts the estimated price of residential properties in Bangalore based on property details such as:
 
-The model was trained using the **Bengaluru House Price Dataset** and deployed as an interactive web application using **Streamlit**.
+- 📍 Location
+- 🏠 Area Type
+- 📐 Total Square Feet
+- 🛏 Number of Bedrooms (BHK)
+- 🚿 Number of Bathrooms
+- 🌇 Number of Balconies
+
+The model was trained using the **Bengaluru House Price Dataset** after extensive data cleaning, feature engineering, and outlier removal.
+
+The trained model is deployed as an interactive **Streamlit** web application.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 🏠 Real-time house price prediction
 - 📍 Location-based prediction
-- 📊 Interactive Streamlit interface
-- 🧹 Data cleaning & preprocessing
-- ⚙️ Feature engineering (`sqft_per_bhk`)
+- 📊 Interactive Streamlit web interface
+- 🧹 Missing value handling
+- ⚙ Feature engineering (`sqft_per_bhk`)
 - 📌 One-Hot Encoding
 - 📈 Linear Regression model
-- 💾 Model serialization using Pickle
-- 🚀 Fast and responsive predictions
+- 💾 Pickle model serialization
+- 🚀 Instant prediction
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠 Tech Stack
 
 | Category | Technologies |
-|----------|--------------|
-| Language | Python |
-| Data Processing | Pandas, NumPy |
+|-----------|--------------|
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
 | Machine Learning | Scikit-learn |
 | Web Framework | Streamlit |
 | Model Storage | Pickle |
-| File Handling | JSON |
+| Configuration | JSON |
 | Development | Jupyter Notebook |
 
 ---
 
-## 📊 Machine Learning Workflow
+# 📊 Machine Learning Pipeline
 
 ```text
 Raw Dataset
@@ -80,31 +90,34 @@ Linear Regression Model
 Model Evaluation
       │
       ▼
-Streamlit Web Application
+Saved Model (.pkl)
+      │
+      ▼
+Streamlit Web App
 ```
 
 ---
 
-## 📈 Model Performance
+# 📈 Model Performance
 
-| Metric | Score |
+| Metric | Value |
 |--------|------:|
-| Algorithm | Linear Regression |
+| Model | Linear Regression |
 | R² Score | **0.856** |
 | Cross Validation Score | **0.858** |
 
 ---
 
-## 📸 Application Screenshots
+# 📸 Application Screenshots
 
-<p align="center">
-  <img src="assets/input-form.png" alt="Input Form" width="48%">
-  <img src="assets/prediction-result.png" alt="Prediction Result" width="48%">
-</p>
+
+![Input Form](assets/input-form.png)
+
+![Prediction Result](assets/prediction-result.png)
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```text
 Bangalore-House-Price-Prediction/
@@ -132,27 +145,27 @@ Bangalore-House-Price-Prediction/
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/AnkushSharma5/Bangalore-House-Price-Prediction.git
 ```
 
-Navigate to the project
+### Navigate to the project folder
 
 ```bash
 cd Bangalore-House-Price-Prediction
 ```
 
-Install the required packages
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application
+### Run the application
 
 ```bash
 streamlit run app.py
@@ -166,7 +179,7 @@ py -m streamlit run app.py
 
 ---
 
-## 💻 How to Use
+# 💻 How to Use
 
 1. Enter the Total Square Feet.
 2. Select the Number of BHK.
@@ -175,34 +188,34 @@ py -m streamlit run app.py
 5. Select the Area Type.
 6. Select the Property Location.
 7. Click **Predict Price**.
-8. View the estimated house price instantly.
+8. View the estimated house price.
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
-- Implement advanced regression models (Random Forest, XGBoost)
+- Implement Random Forest and XGBoost models
 - Hyperparameter tuning
-- Interactive price trend visualizations
+- Interactive price trend visualization
 - Google Maps integration
-- Support for additional property features
 - Cloud deployment using Docker
+- Model comparison dashboard
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ankush Sharma**
 
-🎓 Information Science & Engineering Student
+🎓 B.E. Information Science & Engineering Student
 
 💻 Passionate about Machine Learning, Data Science, and Software Development
 
 - GitHub: https://github.com/AnkushSharma5
-- LinkedIn: *(Add your LinkedIn profile here)*
+- LinkedIn: *(Add your LinkedIn profile URL)*
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+If you found this project useful, please consider giving it a ⭐ on GitHub.

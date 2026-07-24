@@ -981,8 +981,7 @@ This project predicts Bangalore residential property prices using Machine Learni
 ### 👨‍💻 Developed By
 
 **Ankush Sharma**
-
-Information Science & Engineering
+Computer Science & Engineering
 
 Nitte Meenakshi Institute of Technology
 

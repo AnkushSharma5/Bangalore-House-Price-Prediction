@@ -108,14 +108,53 @@ Streamlit Web App
 
 ---
 
-# 📸 Application Screenshots
+## 📸 Application Screenshots
 
+### 🏠 Home Dashboard
 
-![Input Form](assets/input-form.png)
+The landing page of the application displaying the project header, key performance indicators, and an overview of the dashboard.
 
-![Prediction Result](assets/prediction-result.png)
+![Home Dashboard](assets/home_dashboard.png)
 
 ---
+
+### 📝 Prediction Form
+
+Users can enter property details such as total square feet, BHK, bathrooms, balconies, area type, and location to estimate the house price.
+
+![Prediction Form](assets/prediction_form.png)
+
+---
+
+### 💰 Prediction Result
+
+Displays the predicted house price along with the property summary, location statistics, and similar property listings.
+
+![Prediction Result](assets/prediction_result.png)
+
+---
+
+### 📊 Dataset Insights
+
+Interactive visualizations providing insights into the housing dataset, including price distribution and market trends.
+
+![Dataset Insights](assets/dataset_insights.png)
+
+---
+
+### 📈 Square Feet vs Price Analysis
+
+An interactive scatter plot illustrating the relationship between property size and selling price.
+
+![Scatter Plot](assets/scatter_plot.png)
+
+---
+
+### 📍 Top Locations & Area Type Distribution
+
+Visualizations highlighting the most popular property locations and the distribution of different area types across the dataset.
+
+![Top Locations](assets/top_locations.png)
 
 # 📂 Project Structure
 
